@@ -1,0 +1,106 @@
+.projects{
+    width: calc(100% - 520px);
+    margin: 75px auto 75px auto;
+}
+
+.print{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg); 
+    -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    bottom: 475px;
+    font-weight: 200;
+    left: 297px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 15px;
+}
+
+.print#feynman{
+    bottom: 642px;
+    font-weight: 200;
+    left: 348px;
+}
+
+
+.print#travel{
+    bottom: 481px;
+    font-weight: 200;
+    left: 288px;
+}
+
+.print#heat{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    bottom: 273px;
+    font-weight: 200;
+    left: 174px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 15px;
+}
+
+.print#mesto{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    bottom: 355px;
+    font-weight: 200;
+    left: 744px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 15px;
+}
+
+.print#about{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    
+    bottom: 467px;
+    font-weight: 200;
+    left: 262px;
+
+    font-family: 'Neue Haas Grotesk Display Pro';
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 15px;
+}
+
+.print#footer{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    
+    bottom: 97px;
+    font-weight: 200;
+    left: 262px;
+
+    font-family: 'Neue Haas Grotesk Display Pro';
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 15px;
+}
+
+.proba{
+    display: flex;
+    flex-flow: row wrap;
+}

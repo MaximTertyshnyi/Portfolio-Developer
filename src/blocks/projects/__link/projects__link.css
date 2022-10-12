@@ -1,0 +1,9 @@
+.projects__link{
+    list-style-type: none;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+
+.projects__link :hover{
+    opacity: .8;
+  }

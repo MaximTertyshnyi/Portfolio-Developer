@@ -1,0 +1,58 @@
+.title{
+    font-size: 18px;
+    padding-left: 8px;
+    font-weight: 400;
+    line-height: 5px;
+    color: #160003;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+}
+
+.title#feynman {
+    padding-left: 137px;
+    padding-bottom: 15px;
+    width: 230px;
+    margin: 0;
+  }
+
+  .title#travel {
+    padding-left: 265px;
+    padding-bottom: 15px;
+    width: 303px;
+    margin: 0;
+  }
+
+  .title#heat {
+    padding-left: 566px;
+    padding-bottom: 15px;
+    width: 111px;
+    margin: 0;
+    margin-top: 275px;
+  }
+
+  .title#mesto {
+    padding-left: 466px;
+    margin-top: -73px;
+  }
+
+  .title#about {
+    padding-left: 670px;
+    /* margin-top: -73px; */
+    padding-top: 131px;
+    line-height: 34px;
+    width: 628px;
+    font-size: 26px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    font-weight: 200;
+  }
+
+  .title#about_one {
+    padding-left: 670px;
+    font-size: 26px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    font-weight: 200;
+  }
+

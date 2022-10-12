@@ -1,0 +1,33 @@
+.footer__menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 658px;
+}
+
+.footer__menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-weight: 300;
+    text-decoration: none;
+    color: #160003;
+    border: none;
+    padding-top: 96px;
+    padding-bottom: 65px;
+    margin-right: 110px;
+    transition: opacity .5s;
+    font-style:inherit;
+  }
+
+  .footer__menu > li:last-child{
+    padding-right: 130px;
+    margin-right: 0;
+  }
+
+  .footer__menu > li:hover{
+    opacity: .5;
+  }

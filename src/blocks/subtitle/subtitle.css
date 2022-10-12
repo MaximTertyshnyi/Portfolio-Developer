@@ -1,0 +1,57 @@
+.subtitle{
+    width: 558px;
+    margin: 0;
+    font-weight: 100;
+    line-height: 160%;
+    padding-left: 8px;
+    color: #160003;
+}
+
+.subtitle#feynman {
+    margin-left: 130px;
+    width: 259px;
+  }
+
+  .subtitle#travel {
+    margin-left: 259px;
+    width: 295px;
+  }
+
+  .subtitle#heat {
+    padding-left: 397px;
+    /* padding-bottom: 15px; */
+    width: 288px;
+    margin: 0;
+    /* margin-right: 43px; */
+    margin-bottom: -518px;
+  }
+
+  .subtitle#mesto {
+    padding-left: 415px;
+  }
+
+  .subtitle#about {
+    padding-left: 672px;
+    margin-bottom: 70px;
+    width: 628px;
+    font-size: 16px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+  }
+
+  .subtitle#about_one {
+    padding-left: 672px;
+    margin-bottom: 45px;
+    width: 628px;
+    font-size: 16px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    color: rgb(161, 161, 161);
+  }
+
+  .subtitle#about_one:last-child{
+    margin-bottom: 0;
+}
+  
