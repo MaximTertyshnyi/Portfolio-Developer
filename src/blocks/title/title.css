@@ -50,6 +50,8 @@
   .title#about_one {
     padding-left: 670px;
     font-size: 26px;
+    line-height: 35px;
+    width: 615px;
     background-position: center center;
     border-color: transparent;
     border-style: solid;

@@ -32,7 +32,7 @@
 
   .subtitle#about {
     padding-left: 672px;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
     width: 628px;
     font-size: 16px;
     background-position: center center;
@@ -53,5 +53,12 @@
 
   .subtitle#about_one:last-child{
     margin-bottom: 0;
+}
+
+.subtitle#bonus {
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-color: transparent;
+  border-style: solid;
 }
   

@@ -22,6 +22,11 @@
     font-style:inherit;
   }
 
+  .header__menu_navigation > li> a{
+    text-decoration: none;
+    color: rgb(227, 91, 218);
+  }
+
   .header__menu_navigation > li:last-child{
     padding-right: 130px;
     margin-right: 0;

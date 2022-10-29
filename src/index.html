@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link
-      href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro "
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro "
       rel="stylesheet"
     />
     <title>Max Tertyshnyi | Frontend Developer</title>
@@ -19,22 +19,29 @@
         </h1>
         <div class="header__menu">
           <p class="subtitle">
-            I'm a multidisciplinary designer with an engineering background. I
-            have five years of experience working with UX/UI, Graphic Design,
-            Motion and 3D. I highly appreciate clean and consistent design,
-            where form follows function.
+            I’m a frontend developer with Bachelor's Degree in Applied
+            Informatics and secondary specialized education in Information
+            Systems. I have a good knowledge of Responsive-Web-Development,
+            proficiency with JavaScript, and experience with a major front-end
+            framework React. I highly appreciate clean, well-structured, and
+            maintainable code. I am eager to expand my knowledge, ready to learn
+            a lot in a fast-paced environment, and full of motivation to work.
           </p>
           <ul class="header__menu_navigation in-right">
-            <li>PROJECTS</li>
-            <li>ABOUT</li>
-            <li>CONTACTS</li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
           </ul>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <div class="proba">
           <div>
-            <a class="projects__link" href="#" target="_blank">
+            <a
+              class="projects__link"
+              href="https://github.com/MaximTertyshnyi/WeatherApp/tree/main/WeatherApp"
+              target="_blank"
+            >
               <img
                 class="projects__img"
                 src="<%=require('./images/снимок 2.png')%>"
@@ -51,7 +58,11 @@
             </a>
           </div>
           <div>
-            <a class="projects__link" href="#" target="_blank">
+            <a
+              class="projects__link"
+              href="https://maximtertyshnyi.github.io/how-to-learn/"
+              target="_blank"
+            >
               <img
                 class="projects__img_feynman"
                 src="<%=require('./images/снимок 3.png')%>"
@@ -66,7 +77,11 @@
           </div>
           <!-- </div> -->
           <div>
-            <a class="projects__link" href="#" target="_blank">
+            <a
+              class="projects__link"
+              href="https://maximtertyshnyi.github.io/russian-travel/"
+              target="_blank"
+            >
               <img
                 class="projects__img_travel"
                 src="<%=require('./images/Путешествие.png')%>"
@@ -82,7 +97,11 @@
             </a>
           </div>
           <div>
-            <a class="projects__link" href="#" target="_blank">
+            <a
+              class="projects__link"
+              href="http://heat-tobacco.ru/"
+              target="_blank"
+            >
               <h2 id="heat" class="title">Heat Tobacco</h2>
               <p id="heat" class="subtitle">
                 assortment website with feedback form
@@ -103,7 +122,11 @@
             </a>
           </div>
           <div>
-            <a class="projects__link" href="#" target="_blank">
+            <a
+              class="projects__link"
+              href="https://maximtertyshnyi.github.io/mesto/"
+              target="_blank"
+            >
               <img
                 class="projects__img_mesto"
                 src="<%=require('./images/сннимок11.png')%>"
@@ -118,44 +141,161 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__page">
           <h2 id="about" class="title">
-            As mentioned before I am a multidisciplinary designer working in the
-            fields of graphic and product design, motion, and 3D.
+            I graduated from the Plekhanov Russian University of Economics with
+            Bachelor's degree in Applied Informatics. As my bachelor's thesis, I
+            worked in the mobile app development team. My role was focused on
+            analyzing and searching for solutions to automate the company's
+            processes with the means of the mobile app.
           </h2>
           <p id="about" class="subtitle">
-            At Tilda, I gained experience as both a graphic and web designer.
-            While on product, I created product and launching features landing
-            pages, developed interfaces for internal products, and new website
-            templates. On brand, I created visual content (both static and
-            motion) as a key member of the small team. My role was focused on
-            brand awareness and maintained Tilda’s visual style of
-            communications. <br />
-            <br />I supported myself at the university by working as a freelance
-            designer on projects that stimulate my curious side. These can vary
-            from product and web to editorial design or identity. I designed an
-            educational app for learning English with included notifications,
-            launched landing pages, online stores, created design content for
-            presentations, commercial proposals, branding projects, logos, and
-            infographics.
+            After the university, I entered Yandex Practicum online school and
+            mastered the profession of a web developer. I gained both
+            theoretical knowledge and work experience while studying. I
+            supported myself and got real experience by working as a freelance
+            web developer.
+            <br />
+            <br />
+            Besides I write music for various projects in such genres as a
+            soundtrack, neoclassic, immersive and I am developing in the field
+            of sound design. Personally, I pay much attention to details, and
+            like to work in a team, but also have no qualms about tackling
+            challenges alone.
           </p>
           <p id="about" class="print">[ EXPERIENCE ]</p>
-          <h2 id="about_one" class="title">Yandex Practicum: Mesto</h2>
-          <p id="about_one" class="subtitle">
-            the site is an analogue of Instagram
-          </p>
-          <h2 id="about_one" class="title">Yandex Practicum: Mesto</h2>
-          <p id="about_one" class="subtitle">
-            the site is an analogue of Instagram
-          </p>
+          <div class="block-content">
+            <p id="skills" class="print">[ SKILLS ]</p>
+            <div class="grid-block">
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">HTML</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">CSS</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">JavaScript</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">React</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">NodeJS</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">Github</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name"
+                    >BEM methodology</span
+                  >
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name"
+                    >Design Systems</span
+                  >
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">Figma</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name"
+                    >Lottie animation</span
+                  >
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">Webpack</span>
+                </div>
+              </div>
+            </div>
+            <div class="technology-card__bonus-skills">
+              <p id="skills" class="print">[ BONUS-SKILLS ]</p>
+              <p id="bonus" class="subtitle">
+                - basic knowledge of 3D modeling software (Blender)
+              </p>
+              <p id="bonus" class="subtitle">
+                - experience with relational databases, high proficiency with
+                SQL and EXCEL
+              </p>
+              <p id="bonus" class="subtitle">
+                - good knowledge of creation of Domain Models and Databases
+              </p>
+              <p id="bonus" class="subtitle">
+                - knowledge of mathematical support of the technological process
+                scheme, information flows
+              </p>
+              <p id="bonus" class="subtitle">
+                - experience with analysis and formation of requirements for the
+                information system, search for bottlenecks and ways to eliminate
+                and improve them
+              </p>
+            </div>
+          </div>
+          <div>
+            <p id="education" class="print">[ EDUCATION ]</p>
+            <h2 id="about_one" class="title">
+              Secondary Specialized Education in Information Systems at
+              Technical Fire and Rescue College named after the Hero of the
+              Russian Federation<br />
+              V.M. Maksimchuk
+            </h2>
+            <p id="about_one" class="subtitle">2013 - 2017</p>
+            <h2 id="about_one" class="title">
+              Bachelor of Applied Informatics at Plekhanov Russian University of
+              Economics
+            </h2>
+            <p id="about_one" class="subtitle">2017 - 2021</p>
+            <h2 id="about_one" class="title">
+              Certifications: Web-Developer at Yandex Practicum
+            </h2>
+            <p id="about_one" class="subtitle">2021 - 2022</p>
+          </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer id="contacts" class="footer">
         <ul class="footer__menu">
-          <li>GITHUB ↗</li>
-          <li>INSTAHRAM ↗</li>
-          <li>E-MAIL ↗</li>
+          <li><a href="https://github.com/MaximTertyshnyi">>GITHUB ↗</a></li>
+          <li>
+            <a href="https://www.instagram.com/max_tertyshnyi/">>INSTAHRAM ↗</a>
+          </li>
+          <li>
+            <a href="mailto:maxim.tiertyshnyi@gmail.com?subject=Hallo"
+              >>E-MAIL ↗</a
+            >
+          </li>
         </ul>
         <p id="footer" class="print">[ CONTACTS ]</p>
       </footer>
