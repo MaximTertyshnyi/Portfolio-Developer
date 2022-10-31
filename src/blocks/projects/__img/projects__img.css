@@ -43,3 +43,49 @@
     height: 242px;
     margin-left: 79px;
 }
+
+@media (max-width: 640px) {
+
+    .projects__img{
+        width: 140px;
+        height: 280px;
+        padding-bottom: 25px;
+    }
+
+    .projects__img_feynman{
+        width: 287px;
+        height: 176px;
+        margin-left: 70px;
+        margin-bottom: 15px;
+    }
+
+    .projects__img_travel{
+        margin-left: 8px;
+        width: 287px;
+        margin-top: 0;
+        height: 176px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .projects__img_mesto{
+        margin-left: 0;
+        width: 287px;
+        height: 176px;
+    }
+
+    .projects__img_heat#one{
+        margin-left: 47px;
+    float: left;
+    margin-top: 256px;
+    width: 108px;
+    height: 224px;
+    }
+
+    .projects__img_heat#two{
+        margin-top: 357px;
+    margin-left: 5px;
+    width: 193px;
+    height: 121px;
+    }
+} 

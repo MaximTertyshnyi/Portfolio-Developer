@@ -1,3 +1,9 @@
 .header__menu{
-        display: flex;
+        /* display: flex; */
 }
+
+/* @media (max-width: 640px) {
+        .header__menu{
+            display: block;
+      }
+    }  */

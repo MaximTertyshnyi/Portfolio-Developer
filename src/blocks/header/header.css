@@ -3,3 +3,10 @@
   width: calc(100% - 520px);
   padding-top: 56px;
 }
+
+@media (max-width: 640px) {
+  .header{
+    width: auto;
+    padding-top: 25px;
+}
+} 

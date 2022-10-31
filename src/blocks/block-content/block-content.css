@@ -2,3 +2,10 @@
     width: 630px;
     margin: auto auto 100px 664px;
 }
+
+@media (max-width: 640px) {
+    .block-content{
+        width: 325px;
+        margin: 0 auto 0 auto;
+    }
+}

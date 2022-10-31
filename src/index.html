@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro "
       rel="stylesheet"
@@ -18,7 +19,12 @@
           &nbspFrontend Developer
         </h1>
         <div class="header__menu">
-          <p class="subtitle">
+          <ul class="header__menu_navigation in-right right_top">
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
+          </ul>
+          <p class="subtitle left_bottom">
             I’m a frontend developer with Bachelor's Degree in Applied
             Informatics and secondary specialized education in Information
             Systems. I have a good knowledge of Responsive-Web-Development,
@@ -27,16 +33,11 @@
             maintainable code. I am eager to expand my knowledge, ready to learn
             a lot in a fast-paced environment, and full of motivation to work.
           </p>
-          <ul class="header__menu_navigation in-right">
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contacts">CONTACTS</a></li>
-          </ul>
         </div>
       </section>
       <section id="projects" class="projects">
-        <div class="proba">
-          <div>
+        <div class="project">
+          <div class="project__page">
             <a
               class="projects__link"
               href="https://github.com/MaximTertyshnyi/WeatherApp/tree/main/WeatherApp"
@@ -53,11 +54,13 @@
                 alt=""
               />
               <h2 class="title">Weather App</h2>
-              <p class="subtitle">mobile app that works with geolocation</p>
+              <p id="weather" class="subtitle">
+                mobile app that works with geolocation
+              </p>
               <p class="print">[ HTml, CSS, JS, REACT Native ]</p>
             </a>
           </div>
-          <div>
+          <div class="project__page">
             <a
               class="projects__link"
               href="https://maximtertyshnyi.github.io/how-to-learn/"
@@ -75,8 +78,7 @@
               <p id="feynman" class="print">[ HTml, CSS ]</p>
             </a>
           </div>
-          <!-- </div> -->
-          <div>
+          <div class="project__page">
             <a
               class="projects__link"
               href="https://maximtertyshnyi.github.io/russian-travel/"
@@ -96,7 +98,7 @@
               <p id="travel" class="print">[ HTml, CSS, Adaptive Layout ]</p>
             </a>
           </div>
-          <div>
+          <div id="page-tobaco" class="project__page">
             <a
               class="projects__link"
               href="http://heat-tobacco.ru/"
@@ -121,7 +123,7 @@
               <p id="heat" class="print">[ HTml, CSS, JS, Adaptive Layout ]</p>
             </a>
           </div>
-          <div>
+          <div id="page-mesto" class="project__page">
             <a
               class="projects__link"
               href="https://maximtertyshnyi.github.io/mesto/"
@@ -143,6 +145,7 @@
       </section>
       <section id="about" class="about">
         <div class="about__page">
+          <p id="about" class="print">[ EXPERIENCE ]</p>
           <h2 id="about" class="title">
             I graduated from the Plekhanov Russian University of Economics with
             Bachelor's degree in Applied Informatics. As my bachelor's thesis, I
@@ -164,7 +167,7 @@
             like to work in a team, but also have no qualms about tackling
             challenges alone.
           </p>
-          <p id="about" class="print">[ EXPERIENCE ]</p>
+          <!-- <p id="about" class="print">[ EXPERIENCE ]</p> -->
           <div class="block-content">
             <p id="skills" class="print">[ SKILLS ]</p>
             <div class="grid-block">
@@ -269,8 +272,7 @@
             <h2 id="about_one" class="title">
               Secondary Specialized Education in Information Systems at
               Technical Fire and Rescue College named after the Hero of the
-              Russian Federation<br />
-              V.M. Maksimchuk
+              Russian Federation V.M. Maksimchuk
             </h2>
             <p id="about_one" class="subtitle">2013 - 2017</p>
             <h2 id="about_one" class="title">
@@ -286,6 +288,7 @@
         </div>
       </section>
       <footer id="contacts" class="footer">
+        <p id="footer" class="print">[ CONTACTS ]</p>
         <ul class="footer__menu">
           <li><a href="https://github.com/MaximTertyshnyi">>GITHUB ↗</a></li>
           <li>
@@ -297,7 +300,6 @@
             >
           </li>
         </ul>
-        <p id="footer" class="print">[ CONTACTS ]</p>
       </footer>
     </div>
   </body>

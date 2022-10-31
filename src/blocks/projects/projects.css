@@ -3,7 +3,9 @@
     margin: 75px auto 75px auto;
 }
 
-.proba{
-    display: flex;
-    flex-flow: row wrap;
+@media (max-width: 640px) {
+    .projects{
+        width: auto;
+        margin-bottom: 0;
+  }
 }

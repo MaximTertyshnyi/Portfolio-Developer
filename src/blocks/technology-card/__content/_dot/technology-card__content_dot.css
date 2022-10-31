@@ -5,3 +5,13 @@
     border-radius: 50%;
     background-color: rgb(41 114 241 / 50%);
 }
+
+
+@media (max-width: 640px) {
+    .technology-card__content_dot{
+        width: 8px;
+        height: 8px;
+        margin-right: 2px;
+    }
+    
+}

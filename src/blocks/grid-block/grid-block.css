@@ -7,3 +7,12 @@
     margin: 0 auto 66px auto;
     align-items: center;
 }
+
+
+@media (max-width: 640px) {
+    .grid-block{
+        column-gap: 5px;
+        row-gap: 12px;
+        margin-bottom: 55px;
+    }
+}
