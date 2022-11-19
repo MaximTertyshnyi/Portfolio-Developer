@@ -64,3 +64,11 @@
     -o-animation-duration:2s;
     animation-delay: 2s;
   }
+
+  @media (max-width: 640px) {
+    .header__title{
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 auto 15px auto;
+  }
+} 

@@ -1,10 +1,11 @@
 .page{
     margin: auto;
-    /* width: calc(100% - 520px); */
-    margin: auto;
     color: #160003;
 }
 
-/* .page#about{
-    width: 100%;
-} */
+@media (max-width: 640px) {
+    .page{
+        width: calc(100% - 20px);
+        overflow: hidden;
+  }
+} 

@@ -37,3 +37,26 @@
   .footer__menu > li:hover{
     opacity: .5;
   }
+
+  @media (max-width: 640px) {
+    .footer__menu{
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    .footer__menu > li {
+      font-size: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 54px;
+      padding-bottom: 45px;
+    }
+
+    .footer__menu > li:last-child{
+      padding-right: 0;
+      margin-right: auto;
+    }
+  }
