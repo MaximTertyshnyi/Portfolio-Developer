@@ -3,6 +3,12 @@
     margin: 75px auto 75px auto;
 }
 
+@media (max-width: 1700px) {
+    .projects{
+        width: calc(100% - 220px);
+  }
+}
+
 @media (max-width: 640px) {
     .projects{
         width: auto;
