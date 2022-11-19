@@ -21,7 +21,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1500px) {
   .header{
     width: auto;
     padding-top: 25px;
@@ -306,6 +306,10 @@
     padding-left: 0;
 }
 
+.subtitle#subtitle-header{
+  padding-left: 0;
+}
+
 .subtitle#weather {
   width: 280px;
   font-size: 10px;
@@ -504,7 +508,7 @@
     overflow: hidden;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1500px) {
     .projects{
         width: calc(100% - 160px);
   }
