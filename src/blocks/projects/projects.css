@@ -1,6 +1,7 @@
 .projects{
     width: calc(100% - 520px);
     margin: 75px auto 75px auto;
+    overflow: hidden;
 }
 
 @media (max-width: 1700px) {

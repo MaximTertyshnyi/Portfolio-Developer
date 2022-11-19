@@ -2,6 +2,7 @@
   margin: auto;
   width: calc(100% - 520px);
   padding-top: 56px;
+  overflow: hidden;
 }
 
 @media (max-width: 1700px) {

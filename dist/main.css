@@ -18,6 +18,7 @@
   margin: auto;
   width: calc(100% - 520px);
   padding-top: 56px;
+  overflow: hidden;
 }
 
 @media (max-width: 1700px) {
@@ -494,6 +495,7 @@
 .projects{
     width: calc(100% - 520px);
     margin: 75px auto 75px auto;
+    overflow: hidden;
 }
 
 @media (max-width: 1700px) {
@@ -628,11 +630,13 @@
   }
 .about{
     background-color: rgb(245, 245, 245);
+    overflow: hidden;
 }
 
 
 .footer{
   background-color: rgb(245, 245, 245);
+  overflow: hidden;
 }
 .footer__menu{
     display: flex;
