@@ -7,7 +7,6 @@
     bottom: 475px;
     font-weight: 200;
     left: 297px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -34,10 +33,9 @@
     -ms-transform: rotate(0); 
     transform: rotate(0);
     bottom: 273px;
-    width: 224px;
+    width: 244px;
     font-weight: 200;
-    left: 174px;
-    font-family: 'Neue Haas Grotesk Display Pro';
+    left: 164px;
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -53,7 +51,6 @@
     bottom: 355px;
     font-weight: 200;
     left: 744px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -71,7 +68,6 @@
     font-weight: 200;
     left: 262px;
 
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -89,7 +85,6 @@
     font-weight: 200;
     left: 262px;
 
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -107,7 +102,6 @@
     font-weight: 200;
     left: -398px;
 
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -125,10 +119,58 @@
     font-weight: 200;
     left: 262px;
 
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
+    font-size: 15px;
+}
+
+.print#history{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    
+    top: 0;
+    font-weight: 200;
+    left: 0;
+
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.print#relocare{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    
+    top: -16px;
+    font-weight: 200;
+    left: 237px;
+
+    position: relative;
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+}
+
+.print#surf{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0); 
+    -ms-transform: rotate(0); 
+    transform: rotate(0);
+    
+    top: -137px;
+    font-weight: 200;
+    left: 722px;
+
+    position: relative;
+    color: rgb(161, 161, 161);
     font-size: 15px;
 }
 
@@ -143,7 +185,6 @@
     bottom: 287px;
     font-weight: 200;
     left: 154px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -168,7 +209,6 @@
         width: 224px;
         font-weight: 200;
         left: 198px;
-        font-family: 'Neue Haas Grotesk Display Pro';
         position: relative;
         color: rgb(161, 161, 161);
         margin: 0;
@@ -184,7 +224,6 @@
     bottom: 222px;
     font-weight: 200;
     left: 156px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -203,7 +242,6 @@
         bottom: 22px;
     font-weight: 200;
     left: 0;
-    font-family: 'Neue Haas Grotesk Display Pro';
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -220,6 +258,19 @@
         bottom: -30px;
         font-weight: 200;
         left: 12px;
+        font-size: 10px;
+    }
+
+    .print#relocare{
+        font-size: 10px;
+        font-weight: 200;
+        left: 105px;
+    }
+
+    .print#surf{
+        top: -739px;
+        font-weight: 200;
+        left: 79px;
         font-size: 10px;
     }
 }

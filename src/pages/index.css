@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500;800&display=swap');
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -21,3 +22,4 @@
 @import url(../blocks/technology-card/__content/_dot/technology-card__content_dot.css);
 @import url(../blocks/technology-card/__content/_name/technology-card__content_name.css);
 @import url(../blocks/print/print.css);
+@import url(../blocks/last-projects/last-projects.css);

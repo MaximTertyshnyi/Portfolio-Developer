@@ -1,6 +1,5 @@
 .header__title{
-    font-size: 69px;
-    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 68px;
     font-weight: 800;
     display: flex;
     justify-content: center;
@@ -67,7 +66,7 @@
 
   @media (max-width: 640px) {
     .header__title{
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0 auto 15px auto;
   }
