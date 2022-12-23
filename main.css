@@ -532,7 +532,7 @@ hr{
     height: .5px; /* Толщина линии */
 }
 
-.last-projects{
+.new-projects{
         width: calc(100% - 520px);
         margin: 75px auto 75px auto;
         overflow: hidden;
@@ -571,7 +571,7 @@ hr{
 }
 
 @media (max-width: 1700px) {
-    .last-projects{
+    .new-projects{
         width: calc(100% - 220px);
   }
 
@@ -584,7 +584,7 @@ hr{
 }
 
 @media (max-width: 640px) {
-    .last-projects{
+    .new-projects{
         width: auto;
         margin-bottom: 0;
   }
