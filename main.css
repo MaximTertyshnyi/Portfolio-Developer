@@ -142,7 +142,6 @@
 
   .title#heat {
     padding-left: 566px;
-    padding-bottom: 15px;
     width: 111px;
     margin: 0;
     margin-top: 275px;
@@ -256,14 +255,14 @@
   }
 
   .subtitle#heat {
-    padding-left: 397px;
-    width: 288px;
-    margin: 0;
+    padding-left: 227px;
+    width: 460px;
+    margin-top: 10px;
     margin-bottom: -518px;
   }
 
   .subtitle#mesto {
-    padding-left: 415px;
+    padding-left: 365px;
   }
 
   .subtitle#about {
