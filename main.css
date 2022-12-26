@@ -127,17 +127,17 @@
 }
 
 .title#feynman {
-    padding-left: 137px;
     padding-bottom: 15px;
     width: 230px;
     margin: 0;
+    margin-left: auto;
   }
 
   .title#travel {
-    padding-left: 265px;
+    /* padding-left: 265px; */
     padding-bottom: 15px;
-    width: 303px;
-    margin: 0;
+    width: 287px;
+    margin: 0 0 0 auto;
   }
 
   .title#heat {
@@ -245,13 +245,13 @@
 }
 
 .subtitle#feynman {
-    margin-left: 130px;
-    width: 259px;
+    width: 241px;
+    margin-left: auto;
   }
 
   .subtitle#travel {
-    margin-left: 259px;
-    width: 295px;
+    margin-left: auto;
+    width: 280px;
   }
 
   .subtitle#heat {
@@ -576,6 +576,7 @@ hr{
     height: fit-content;
     margin-bottom: auto;
     object-fit: contain;
+    margin-top: 0;
 }
 
 @media (max-width: 1700px) {
@@ -701,7 +702,21 @@ hr{
 .projects__img_heat#two{
     width: 387px;
     height: 242px;
-    margin-left: 79px;
+    margin-left: 77px;
+}
+
+@media (max-width: 1700px) {
+    .projects__img_feynman{
+        margin-left: 80px;
+    }
+
+    .projects__img_travel{
+        width: 515px;
+        height: 318px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -1086,6 +1101,14 @@ hr{
     color: rgb(161, 161, 161);
     font-size: 15px;
 }
+
+@media (max-width: 1700px) {
+    .print#travel{
+        bottom: 435px;
+        left: 273px;
+    }
+}
+
 
 @media (max-width: 640px) {
 
