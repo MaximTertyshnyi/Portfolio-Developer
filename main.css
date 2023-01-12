@@ -1616,6 +1616,11 @@ hr{
     opacity: .5;
   }
 
+  @media (max-width: 1500px) {
+    .footer__menu{
+      padding-left: 470px;
+    }
+  }
   @media (max-width: 1400px) {
     .footer__menu{
       padding-left: 458px;
