@@ -967,6 +967,10 @@ hr{
     margin-bottom: 100px;
 }
 
+.form-conteiner:last-child {
+    margin-bottom: 0;
+  }
+
 .relocare-conteiner{
     display: flex;
     flex-direction: row-reverse;
@@ -1026,6 +1030,10 @@ hr{
     flex-direction: column;
     margin-bottom: 50px;
 }
+
+.form-conteiner:last-child {
+    margin-bottom: 0;
+  }
 
 .relocare-conteiner{
     flex-direction: column;
