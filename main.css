@@ -970,7 +970,7 @@ hr{
 .relocare-conteiner{
     display: flex;
     flex-direction: row-reverse;
-
+    margin-bottom: 50px;
 }
 
 .relocare__img{
@@ -1030,6 +1030,7 @@ hr{
 .relocare-conteiner{
     flex-direction: column;
     margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .relocare__img{
