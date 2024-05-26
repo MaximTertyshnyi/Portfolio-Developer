@@ -18,7 +18,7 @@
     height: 20px;
     padding-top: 96px;
     padding-bottom: 65px;
-    margin-right: 110px;
+    margin-right: 80px;
     transition: opacity .5s;
     font-style:inherit;
   }
@@ -35,6 +35,36 @@
 
   .footer__menu > li:hover{
     opacity: .5;
+  }
+
+  @media (max-width: 1500px) {
+    .footer__menu{
+      padding-left: 470px;
+    }
+  }
+  @media (max-width: 1400px) {
+    .footer__menu{
+      padding-left: 458px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .footer__menu{
+      padding-left: 73px;
+    }
+
+    .footer__menu > li {
+      font-size: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 54px;
+      padding-bottom: 45px;
+    }
+
+    .footer__menu > li:last-child{
+      padding-right: 0;
+      margin-right: auto;
+    }
   }
 
   @media (max-width: 640px) {

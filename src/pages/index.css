@@ -7,6 +7,7 @@
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu/_navigation/header__menu_navigation.css);
+@import url(../blocks/new-projects/new-projects.css);
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__page/project__page.css);
@@ -22,4 +23,3 @@
 @import url(../blocks/technology-card/__content/_dot/technology-card__content_dot.css);
 @import url(../blocks/technology-card/__content/_name/technology-card__content_name.css);
 @import url(../blocks/print/print.css);
-@import url(../blocks/last-projects/last-projects.css);

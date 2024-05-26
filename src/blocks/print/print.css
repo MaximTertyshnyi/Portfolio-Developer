@@ -149,11 +149,11 @@
     -ms-transform: rotate(0); 
     transform: rotate(0);
     
-    top: -16px;
-    font-weight: 200;
-    left: 237px;
-
-    position: relative;
+    width: 221px;
+    position: inherit;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 10px;
     color: rgb(161, 161, 161);
     font-size: 15px;
 }
@@ -164,17 +164,203 @@
     -o-transform: rotate(0); 
     -ms-transform: rotate(0); 
     transform: rotate(0);
-    
-    top: -137px;
+    margin-bottom: 10px;
+    /* top: -93px;
     font-weight: 200;
-    left: 722px;
-
-    position: relative;
+    left: 818px; */
+        width: 300px;
+    position: inherit;
+    margin-left: auto ;
+    margin-right: auto;
     color: rgb(161, 161, 161);
     font-size: 15px;
 }
 
-@media (max-width: 640px) {
+
+@media (max-width: 1920px) {
+    .print{    
+    left: 325px;
+    }
+
+    .print#travel{
+        left: 325px;  
+    }
+  /* .print#surf{
+    top: -128px;
+    font-weight: 200;
+    left: 738px;
+} */
+
+.print#feynman{
+    /* bottom: 597px;
+    left: 320px; */
+    bottom: 602px;
+    left: -255px;
+}
+
+.print#heat{
+    left: 192px;
+
+}
+
+.print#mesto{
+    bottom: 348px;
+    left: 830px;
+}
+}
+
+@media (max-width: 1800px) {
+    .print{
+        left: 273px;
+    }
+    .print#travel{
+        bottom: 435px;
+        left: 273px;
+    }
+
+    .print#feynman{
+        bottom: 602px;
+        left: -255px;
+    }
+    .print#heat{
+        left: 162px;
+    }
+}
+
+
+@media (max-width: 1700px) {
+    .print#travel{
+        bottom: 435px;
+        left: 273px;
+    }
+    /* .print#feynman{
+        left: -248px;
+    } */
+
+    /* .print#surf{
+        top: -97px;
+        font-weight: 200;
+        left: 801px;
+    } */
+}
+
+@media (max-width: 1600px) {
+
+  /* .print#surf{
+    top: -328px;
+    font-weight: 200;
+    left: 583px;
+} */
+
+.print{
+    left: 282px;
+}
+
+.print#travel{
+    bottom: 430px;
+    left: 269px;
+
+}
+.print#feynman{
+    /* bottom: 499px;
+    left: -211px; */
+    left: -248px;
+}
+}
+
+@media (max-width: 1500px) {
+  
+  .print#feynman{
+    bottom: 499px;
+    left: -211px;
+  }
+
+  .print#travel{
+    bottom: 329px;
+    left: 223px;
+
+}
+  .print{
+    left: 243px;
+}
+.print#mesto{
+    bottom: 315px;
+    left: 592px;
+}
+.print#heat{
+    left: 184px;
+    bottom: 240px;
+}
+.print#skills{
+    left: -202px;
+}
+
+  }
+
+@media (max-width: 1400px) {
+    .print#skills{
+        left: -207px;
+    }
+  }
+
+@media (max-width: 1280px) {
+    .print{
+        left: 259px;
+    }
+
+    .print#footer{
+        
+    bottom: -49px;
+    font-weight: 200;
+    left: 15px;
+    }
+    .print#about{
+        bottom: -18px;
+    font-weight: 200;
+    left: 25px;
+    }
+    .print#skills{
+        left: 0;
+        top: -28px;
+    }
+    .print#education{
+        bottom: -34px;
+        font-weight: 200;
+        left: 0;
+    }
+}
+
+@media (max-width: 1144px) {
+    .print{
+        left: 230px;
+    }
+
+    .print#heat{
+        left: 78px;
+        bottom: 212px;
+    }
+    .print#feynman{
+        bottom: 431px;
+        left: -180px;
+      }
+}
+@media (max-width: 950px) {
+    .print#heat{
+        left: 143px;
+    }
+    .print#travel{
+        bottom: 329px;
+        left: 235px;
+    
+    }
+    .print#mesto{
+        bottom: 362px;
+        left: 85px;
+    }
+
+}
+
+@media (max-width: 768px) {
 
     .print{
         -webkit-transform: rotate(-90deg);
@@ -182,9 +368,9 @@
         -o-transform: rotate(-90deg); 
         -ms-transform: rotate(-90deg); 
         transform: rotate(-90deg);
-    bottom: 287px;
-    font-weight: 200;
-    left: 154px;
+        bottom: 452px;
+        font-weight: 200;
+        left: 213px;
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -192,23 +378,23 @@
     }
 
     .print#feynman{
-        bottom: 360px;
-    font-weight: 200;
-    left: -151px;
+        bottom: 504px;
+        font-weight: 200;
+        left: -177px;
     }
 
     .print#travel{
-        bottom: 249px;
-    font-weight: 200;
-    left: 150px;
+        bottom: 401px;
+        font-weight: 200;
+        left: 229px;
     }
 
     .print#heat{
         transform: rotate(0);
-        bottom: 145px;
+        bottom: 197px;
         width: 224px;
         font-weight: 200;
-        left: 198px;
+        left: 189px;
         position: relative;
         color: rgb(161, 161, 161);
         margin: 0;
@@ -221,9 +407,9 @@
     -o-transform: rotate(-90deg); 
     -ms-transform: rotate(-90deg); 
     transform: rotate(-90deg);
-    bottom: 222px;
+    bottom: 351px;
     font-weight: 200;
-    left: 156px;
+    left: 210px;
     position: relative;
     color: rgb(161, 161, 161);
     margin: 0;
@@ -263,16 +449,102 @@
 
     .print#relocare{
         font-size: 10px;
+        width: 154px;
         font-weight: 200;
-        left: 105px;
     }
 
     .print#surf{
-        top: -739px;
-        font-weight: 200;
-        left: 79px;
         font-size: 10px;
+        font-weight: 200;
+        width: 198px;
     }
+}
+
+@media (max-width: 640px) {
+    .print{
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0); 
+        -ms-transform: rotate(0); 
+        transform: rotate(0);
+        bottom: 69px;
+        font-weight: 200;
+        left: 123px;
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 10px;
+    }
+
+    .print#travel{
+        bottom: 248px;
+        left: 24px;
+    }
+    .print#feynman{
+        bottom: 245px;
+        font-weight: 200;
+        left: 279px;
+}
+.print#heat{
+    bottom: 144px;
+    width: 224px;
+    font-weight: 200;
+    left: 65px;
+}
+.print#mesto{
+    bottom: 220px;
+    font-weight: 200;
+    left: 158px;
+}
+
+}
+
+@media (max-width: 375px) {
+    .print{
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0); 
+        -ms-transform: rotate(0); 
+        transform: rotate(0);
+        bottom: 69px;
+        font-weight: 200;
+        left: 123px;
+    position: relative;
+    color: rgb(161, 161, 161);
+    margin: 0;
+    font-size: 10px;
+    }
+
+    .print#travel{
+        bottom: 248px;
+        left: 24px;
+    }
+    .print#feynman{
+
+        left: 204px;
+
+}
+.print#heat{
+    bottom: 128px;
+    width: 224px;
+    font-weight: 200;
+    left: 9px;
+}
+
+.print#mesto{
+    -webkit-transform: rotate(0);
+-moz-transform: rotate(0);
+-o-transform: rotate(0); 
+-ms-transform: rotate(0); 
+transform: rotate(0);
+bottom: 248px;
+font-weight: 200;
+left: 106px;
+position: relative;
+color: rgb(161, 161, 161);
+margin: 0;
+font-size: 10px;
+}
 }
 
 

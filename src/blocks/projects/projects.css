@@ -6,11 +6,33 @@
 
 @media (max-width: 1700px) {
     .projects{
-        width: calc(100% - 220px);
+        width: calc(100% - 300px);
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1600px) {
+    .projects{
+        width: calc(100% - 282px);
+}
+}
+
+@media (max-width: 1438px) {
+    .projects{
+        width: calc(100% - 189px);
+
+}
+}
+
+
+@media (max-width: 1280px) {
+    .projects{
+        width: calc(100% - 50px);
+}
+}
+
+
+
+@media (max-width: 1080px) {
     .projects{
         width: auto;
         margin-bottom: 0;

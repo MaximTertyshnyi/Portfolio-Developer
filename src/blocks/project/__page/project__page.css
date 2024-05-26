@@ -1,3 +1,33 @@
+@media (max-width: 1920px) {
+    .project__page#feynman{
+        margin-left: auto;
+    }
+
+    .project__page#page-tobaco{
+        margin-left: auto;
+    }
+
+    .project__page#page-mesto{
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1080px) {
+    .project__page{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .project__page#page-mesto{
+        margin-left: 0;
+    }
+}
+
+
+
+
 @media (max-width: 640px) {
     .project__page{
         margin-bottom: 25px;

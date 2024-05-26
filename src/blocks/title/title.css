@@ -8,22 +8,21 @@
 }
 
 .title#feynman {
-    padding-left: 137px;
     padding-bottom: 15px;
     width: 230px;
     margin: 0;
+    margin-left: auto;
   }
 
   .title#travel {
-    padding-left: 265px;
+    /* padding-left: 265px; */
     padding-bottom: 15px;
-    width: 303px;
-    margin: 0;
+    width: 277px;
+    margin: 0 0 0 auto;
   }
 
   .title#heat {
     padding-left: 566px;
-    padding-bottom: 15px;
     width: 111px;
     margin: 0;
     margin-top: 275px;
@@ -58,6 +57,98 @@
     font-weight: 200;
   }
 
+  @media (max-width: 1920px) {
+
+    .title#heat {
+      margin-left: auto;
+      margin-top: 328px;
+    }
+    .title#mesto {
+      padding-left: 491px;
+    }
+}
+
+@media (max-width: 1500px) {
+  .title#mesto {
+    padding-left: 247px;
+  }
+  .title#about {
+    padding-left: 470px;
+  }
+
+  .title#about_one {
+    padding-left: 470px;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .title#about {
+    padding-left: 470px;
+  }
+
+  .title#about_one {
+    padding-left: 470px;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .title#about {
+    padding-left: 470px;
+  }
+
+  .title#about_one {
+    padding-left: 470px;
+  }
+
+  .title#heat {
+    margin-left: -13px;
+    
+  }
+
+  .title#about {
+    padding-left: 0;
+    width: auto;
+    padding-top: 44px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 10px 50px 10px;
+    font-size: 20px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    font-weight: 200;
+  }
+
+  .title#about_one {
+    font-size: 15px;
+    width: auto;
+    padding-left: 0;
+    border-style: solid;
+    line-height: 30px;
+    border-color: transparent;
+    margin: 40px 5px 0 10px;
+  }
+}
+@media (max-width: 1143px) {
+
+  .title#heat {
+    margin-left: -171px;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .title#heat {
+    margin-left: -96px;
+  }
+  .title#mesto {
+    padding-left: 196px;
+    margin-top: 10px;
+  }
+}
+
   @media (max-width: 640px) {
 
     .title{
@@ -66,10 +157,9 @@
   }
 
   .title#feynman {
-    padding-left: 188px;
     padding-bottom: 9px;
-    width: 230px;
-    margin: 0;
+    width: 165px;
+    margin-left: auto;
   }
 
   .title#travel {
@@ -80,7 +170,7 @@
   }
 
   .title#heat {
-    padding-left: 273px;
+    padding-left: 258px;
     padding-bottom: 9px;
     width: 111px;
     margin: 0;
@@ -91,28 +181,34 @@
       padding-left: 5px;
     margin-top: -15px;
     }
-  
-    .title#about {
-      padding-left: 0;
-      width: auto;
-      padding-top: 44px;
-      line-height: 35px;
-      text-align: center;
-      margin: 0 10px 50px 10px;
-      font-size: 20px;
-      background-position: center center;
-      border-color: transparent;
-      border-style: solid;
-      font-weight: 200;
-    }
+} 
 
-    .title#about_one {
-      font-size: 15px;
-      width: auto;
+@media (max-width: 375px) {
+
+  .title{
+    font-size: 13px;
+  padding-left: 8px;
+}
+
+.title#feynman {
+  padding-bottom: 9px;
+  width: 165px;
+  margin-left: auto;
+}
+
+.title#travel {
       padding-left: 0;
-      border-style: solid;
-      line-height: 30px;
-      border-color: transparent;
-      margin: 40px 5px 0 10px;
-    }
+      padding-bottom: 8px;
+      width: 303px;
+      margin: 0;
+}
+
+.title#heat {
+  padding-left: 0;
+}
+
+  .title#mesto {
+    padding-left: 5px;
+  margin-top: -15px;
+  }
 } 

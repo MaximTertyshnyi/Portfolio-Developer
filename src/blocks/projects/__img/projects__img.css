@@ -41,8 +41,281 @@
 .projects__img_heat#two{
     width: 387px;
     height: 242px;
-    margin-left: 79px;
+    margin-left: 77px;
 }
+
+@media (max-width: 1920px) {
+    .projects__img{
+        width: 310px;
+        height: 600px;
+    }
+
+    .projects__img_feynman{
+        width: 537px;
+    height: 314px;
+    margin-left: 75px;
+    }
+    .projects__img_heat#two{
+        margin-left: 107px;
+    }
+
+    .projects__img_travel{
+        width: 537px;
+        height: 314px;
+    }
+
+    .projects__img_mesto{
+        width: 537px;
+        height: 314px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .projects__img{
+        width: 270px;
+    height: 529px;
+    }
+    .projects__img_feynman{
+        margin-left: 51px;
+    }
+    .projects__img_travel{
+        width: 464px;
+        height: 298px;
+    }
+    .projects__img_heat#two{
+        margin-left: 82px;
+    }
+
+    .projects__img_mesto{
+        
+    width: 464px;
+    height: 298px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .projects__img_feynman{
+        margin-left: 80px;
+    }
+
+    .projects__img_travel{
+        width: 504px;
+        height: 318px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 1500px) {
+    .projects__img{
+        width: 240px;
+        height: 480px;
+    }
+    .projects__img_feynman{
+        margin-left: 60px;
+        width: 435px;
+        height: 271px;
+    }
+
+    .projects__img_travel{
+        width: 392px;
+        height: 249px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .projects__img_heat#one{
+        width: 204px;
+        height: 429px;
+    }
+
+    .projects__img_heat#two{
+        width: 341px;
+        height: 214px;
+        margin-left: 125px;
+    }
+    .projects__img_mesto{
+        margin-left: 479px;
+        width: 434px;
+        height: 276px;
+    }
+}
+
+@media (max-width: 1282px) {
+    .projects__img{
+        width: 240px;
+        height: 480px;
+    }
+    .projects__img_feynman{
+        margin-left: 60px;
+        width: 435px;
+        height: 271px;
+    }
+
+    .projects__img_travel{
+        width: 392px;
+        height: 249px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .projects__img_heat#one{
+        width: 204px;
+        height: 429px;
+    }
+
+    .projects__img_heat#two{
+        width: 341px;
+        height: 214px;
+        margin-left: 125px;
+    }
+    .projects__img_mesto{
+        margin-left: 479px;
+        width: 434px;
+        height: 276px;
+    }
+}
+
+/* @media (max-width: 1143px) {
+    .projects__img{
+        width: 240px;
+        height: 480px;
+    }
+    .projects__img_feynman{
+        margin-left: 60px;
+        width: 435px;
+        height: 271px;
+    }
+
+    .projects__img_travel{
+        width: 392px;
+        height: 249px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .projects__img_heat#one{
+        width: 204px;
+        height: 429px;
+    }
+
+    .projects__img_heat#two{
+        width: 341px;
+        height: 214px;
+        margin-left: 50px;
+    }
+    .projects__img_mesto{
+        margin-left: 479px;
+        width: 434px;
+        height: 276px;
+    }
+} */
+
+@media (max-width: 1314px) {
+    .projects__img{
+        width: 240px;
+        height: 480px;
+    }
+    .projects__img_feynman{
+        margin-left: 60px;
+        width: 435px;
+        height: 271px;
+    }
+
+    .projects__img_travel{
+        width: 392px;
+        height: 249px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .projects__img_heat#one{
+        width: 204px;
+        height: 429px;
+    }
+
+    .projects__img_heat#two{
+        width: 341px;
+        height: 214px;
+        margin-left: 125px;
+    }
+    .projects__img_mesto{
+        margin-left: 479px;
+        width: 434px;
+        height: 276px;
+    }
+}
+
+@media (max-width: 1143px) {
+    .projects__img{
+        width: 216px;
+        height: 426px;
+    }
+    .projects__img_feynman{
+        margin-left: 60px;
+        width: 380px;
+    height: 233px;
+    }
+
+    .projects__img_travel{
+        width: 392px;
+        height: 249px;
+        margin-top: 82px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .projects__img_heat#one{
+        width: 181px;
+    height: 378px;
+    }
+
+    .projects__img_heat#two{
+        width: 282px;
+        height: 178px;
+        margin-left: 50px;        
+    }
+    .projects__img_mesto{
+        margin-left: 479px;
+        width: 434px;
+        height: 276px;
+    }
+}
+
+@media (max-width: 950px) {
+    .projects__img{
+        width: 206px;
+        height: 404px;
+    }
+    .projects__img_feynman{
+
+        margin-left: 95px;
+        width: 426px;
+        height: 258px;
+    }
+
+    .projects__img_travel{
+        margin-top: 0;
+        width: 426px;
+        height: 258px;
+    }
+    .projects__img_heat#one{
+        width: 188px;
+        height: 378px;
+    }
+
+    .projects__img_heat#two{
+        width: 272px;
+        height: 182px;
+        margin-left: 125px;
+    }
+    .projects__img_mesto{
+        margin-left: 0;
+        width: 392px;
+        height: 249px;
+        margin-top: 50px;
+    }
+}
+
 
 @media (max-width: 640px) {
 
@@ -75,8 +348,8 @@
     }
 
     .projects__img_heat#one{
-        margin-left: 47px;
-    float: left;
+        margin-left: 0;
+    /* float: left; */
     margin-top: 256px;
     width: 108px;
     height: 224px;
@@ -84,8 +357,48 @@
 
     .projects__img_heat#two{
         margin-top: 357px;
-    margin-left: 5px;
+        margin-left: 37px;
     width: 193px;
     height: 121px;
+    }
+} 
+
+@media (max-width: 375px) {
+
+    .projects__img{
+        width: 140px;
+        height: 280px;
+        padding-bottom: 25px;
+    }
+
+    .projects__img_feynman{
+        width: 282px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .projects__img_travel{
+        width: 282px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .projects__img_mesto{
+        margin-left: 0;
+        width: 270px;
+    }
+
+    .projects__img_heat#one{
+        margin-left: 0;
+    /* float: left; */
+    margin-top: 256px;
+    width: 108px;
+    height: 224px;
+    }
+
+    .projects__img_heat#two{
+        margin-left: 0;
+        width: 172px;
+        height: 109px;
     }
 } 
