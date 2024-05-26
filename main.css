@@ -1039,6 +1039,7 @@ hr{
     flex-direction: column;
     margin-top: 0;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .relocare__img{
