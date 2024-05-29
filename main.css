@@ -1737,7 +1737,7 @@ hr{
 }
 
 .technology-card{
-    cursor: pointer;
+    cursor: default;
     padding: 8px;
     background-color: #d8d8d8ab;
     border-radius: 12px;
