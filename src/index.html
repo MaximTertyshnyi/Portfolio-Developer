@@ -10,16 +10,77 @@
       rel="stylesheet"
     />
     <title>Max Tertyshnyi | Frontend Developer</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <style>
+      .form-conteiner {
+        display: flex;
+        align-items: center;
+        margin-top: -20px;
+      }
+
+      .projects-print-conteiner {
+        width: 100%;
+        max-width: 600px;
+        overflow: hidden;
+      }
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative;
+        display: grid;
+        gap: 23px;
+      }
+
+      .swiper-slide img {
+        width: 100%;
+        max-height: 330px;
+        min-height: 330px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        height: auto;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+        display: block;
+      }
+
+      @media (max-width: 600px) {
+        .swiper-slide img {
+          max-height: 330px;
+          min-height: auto;
+        }
+      }
+
+      .text-projects {
+        max-width: 600px;
+        text-align: justify;
+      }
+
+      .technology-card {
+        display: flex;
+        align-items: center;
+        cursor: default;
+      }
+
+      .header__menu_navigation a:focus {
+        outline: 1px solid rgb(227, 91, 218);
+      }
+    </style>
   </head>
   <body class="body">
     <div class="page">
       <section class="header">
         <h1 class="header__title">
-          Maxim Tertyshnyi&nbsp<span class="header__title_vertical-line in-up"
+          Maxim Tertyshnyi&nbsp;<span class="header__title_vertical-line in-up"
             >|</span
           >
-          &nbspFrontend Developer
+          &nbsp;Frontend Developer
         </h1>
         <div class="header__menu">
           <ul class="header__menu_navigation in-right right_top">
@@ -30,35 +91,124 @@
           <p class="subtitle left_bottom">
             I’m a frontend developer with Bachelor's Degree in Applied
             Informatics and secondary specialized education in Information
-            Systems. I have one year and a half of working experience, a good
-            knowledge of Responsive Web Development, JavaScript, and React. I
-            highly appreciate clean, well-structured, and maintainable code. I
-            am eager to expand my knowledge, ready to learn a lot in a
-            fast-paced environment, and full of motivation to work.
+            Systems. I have three years of working experience, a good knowledge
+            of Responsive Web Development, JavaScript, and React. I highly
+            appreciate clean, well-structured, and maintainable code. I am eager
+            to expand my knowledge, ready to learn a lot in a fast-paced
+            environment, and full of motivation to work.
           </p>
         </div>
       </section>
-      <section id="projects" id="new-projects" class="new-projects">
+      <section id="projects" class="new-projects">
         <div class="projects-conteiner">
-          <!-- <p id="relocare" class="print">[ React, Fintech, Banking System]</p> -->
-            <div class="form-conteiner">
+          <div class="form-conteiner">
             <div class="projects-print-conteiner">
               <a
-              class="projects__link"
-              href="https://relocare.io"
-              target="_blank"
-            >
-              <p id="relocare" class="print">
-                [ React, Fintech, Banking System]
-              </p>
-              <img
-                class="relocare__img"
-                src="<%=require('./images/wego.png')%>"
-                alt=""
-              />
+                class="projects__link"
+                href="https://wegotrip.com/"
+                target="_blank"
+              >
+                <p id="relocare" class="print">
+                  [ TravelTech, Self-guided tours ]
+                </p>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/wego.png')%>"
+                        alt="Image 1"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/ai-wego.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/cabinet.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/chekout.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/author.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/filters.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="relocare__img"
+                        src="<%=require('./images/ai-form.png')%>"
+                        alt="Image 2"
+                      />
+                    </div>
+                    <!-- Add more slides as needed -->
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </a>
             </div>
-            </a>
             <p class="text-projects">
+              <span class="title_span"
+                >WeGoTrip - Adaptive AI-Powered Travel Tech Website</span
+              >
+              <br /><br />One of the latest and most interesting tasks was the
+              integration of AI-powered tours into the platform. I implemented
+              AI-based forms for generating tours on user requests and developed
+              a more advanced AI form for creating and translating tours for
+              tours' providers. With this feature, the company reached the top
+              of Product Hunt and successfully took part in various IT
+              exhibitions such as Arrival and ITB Berlin. <br /><br />
+              As a Frontend Developer, I also was actively involved in redesign,
+              revamping existing components and pages, as well as contributing
+              to the development of new features such as various filters, the
+              entire payment process, user profile pages, QR code generation,
+              report generation, custom validation, order editing, cancellation
+              processes, and real-time order status display. I also successfully
+              integrated tours from external services, working with converters
+              and conducted a thorough audit of all the pages to achieved
+              significant results in optimization.
+            </p>
+          </div>
+          <div class="relocare-conteiner">
+            <div class="projects-print-conteiner">
+              <a
+                class="projects__link"
+                href="https://relocare.io"
+                target="_blank"
+              >
+                <p id="relocare" class="print">
+                  [ Fintech app, Banking System ]
+                </p>
+                <img
+                  class="relocare__img"
+                  src="<%=require('./images/relo.svg')%>"
+                  alt=""
+                />
+              </a>
+            </div>
+            <p id="surf" class="text-projects">
               <span class="title_span">Mobile app for a neobank Relocare</span>
               <br /><br />Relocare is a FinTech product that helps relocants
               open a free bank account, spend and save money abroad regardless
@@ -67,7 +217,7 @@
               worldwide financial platform Railsr. With the help of Onfido SDK,
               we implemented KYC verification, where I disabled all the
               functions that are not available to the user before passing KYC
-              and developed a redirection function. 
+              and developed a redirection function.
               <br /><br />As a frontend developer, I developed and styled
               reusable React components, screens, component logic, created
               validation for app components, and custom-select components. I
@@ -79,42 +229,6 @@
           </div>
           <div class="form-conteiner">
             <div class="projects-print-conteiner">
-              <a
-              class="projects__link"
-              href="https://relocare.io"
-              target="_blank"
-            >
-              <p id="relocare" class="print">
-                [ React, Fintech, Banking System]
-              </p>
-              <img
-                class="relocare__img"
-                src="<%=require('./images/relo.svg')%>"
-                alt=""
-              />
-            </div>
-            </a>
-            <p class="text-projects">
-              <span class="title_span">Mobile app for a neobank Relocare</span>
-              <br /><br />Relocare is a FinTech product that helps relocants
-              open a free bank account, spend and save money abroad regardless
-              of citizenship. <br /><br />
-              Together with a team, we integrated the app with a fully regulated
-              worldwide financial platform Railsr. With the help of Onfido SDK,
-              we implemented KYC verification, where I disabled all the
-              functions that are not available to the user before passing KYC
-              and developed a redirection function. 
-              <br /><br />As a frontend developer, I developed and styled
-              reusable React components, screens, component logic, created
-              validation for app components, and custom-select components. I
-              also developed the MobX store, worked with React Hook Form and
-              API. <br /><br />
-              The app was developed with a low code backend with the help of
-              Directual. The app’s first version is to be launched in 2023.
-            </p>
-          </div>
-          <div class="relocare-conteiner">
-            <div class="projects-print-conteiner">
               <img
                 class="surf__img"
                 src="<%=require('./images/surf.png')%>"
@@ -124,9 +238,9 @@
                 [ Business Analysis, Research, Development ]
               </p>
             </div>
-            <p id="surf" class="text-projects">
+            <p class="text-projects">
               <span class="title_span"
-                >Mobile app for a chain of coffeehouses "Surf&nbsp;Coffee"</span
+                >Mobile app for a chain of coffeehouses "Surf Coffee"</span
               >
               <br /><br />
               Together with a small development team, we created the app from
@@ -144,9 +258,6 @@
               months. <br /><br />The project has been accepted and launched.
             </p>
           </div>
-          <!-- <p id="surf" class="print">
-            [ Business Analysis, Research, Development ]
-          </p> -->
         </div>
         <p id="history" class="print">[ REST IN HISTORY ]</p>
         <hr />
@@ -173,7 +284,7 @@
               <p id="weather" class="subtitle">
                 local weather radar app with integrated geolocation
               </p>
-              <p class="print">[ HTml, CSS, JS, REACT Native ]</p>
+              <p class="print">[ HTML, CSS, JS, REACT Native ]</p>
             </a>
           </div>
           <div id="feynman" class="project__page">
@@ -191,7 +302,7 @@
               <p id="feynman" class="subtitle">
                 article about teaching techniques
               </p>
-              <p id="feynman" class="print">[ HTml, CSS ]</p>
+              <p id="feynman" class="print">[ HTML, CSS ]</p>
             </a>
           </div>
           <div class="project__page">
@@ -211,7 +322,7 @@
               <p id="travel" class="subtitle">
                 article about the journey to Lake Baikal
               </p>
-              <p id="travel" class="print">[ HTml, CSS, Adaptive Layout ]</p>
+              <p id="travel" class="print">[ HTML, CSS, Adaptive Layout ]</p>
             </a>
           </div>
           <div id="page-tobaco" class="project__page">
@@ -236,7 +347,7 @@
                 src="<%=require('./images/heat1.png')%>"
                 alt=""
               />
-              <p id="heat" class="print">[ HTml, CSS, JS, Adaptive Layout ]</p>
+              <p id="heat" class="print">[ HTML, CSS, JS, Adaptive Layout ]</p>
             </a>
           </div>
           <div id="page-mesto" class="project__page">
@@ -254,7 +365,7 @@
               <p id="mesto" class="subtitle">
                 online photo-sharing website like instagram
               </p>
-              <p id="mesto" class="print">[ HTml, CSS, JS, Adaptive Layout ]</p>
+              <p id="mesto" class="print">[ HTML, CSS, JS, Adaptive Layout ]</p>
             </a>
           </div>
         </div>
@@ -283,10 +394,15 @@
             Personally, I pay much attention to details, and like to work in a
             team, but also have no qualms about tackling challenges alone.
           </p>
-          <!-- <p id="about" class="print">[ EXPERIENCE ]</p> -->
           <div class="block-content">
             <p id="skills" class="print">[ SKILLS ]</p>
             <div class="grid-block">
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">React</span>
+                </div>
+              </div>
               <div class="technology-card">
                 <div class="technology-card__content">
                   <span class="technology-card__content_dot"></span>
@@ -308,7 +424,39 @@
               <div class="technology-card">
                 <div class="technology-card__content">
                   <span class="technology-card__content_dot"></span>
-                  <span class="technology-card__content_name">React</span>
+                  <span class="technology-card__content_name">Redux</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">Lingui</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">SSR</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name"
+                    >Google Tag Manager</span
+                  >
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">SendPulse</span>
+                </div>
+              </div>
+              <div class="technology-card">
+                <div class="technology-card__content">
+                  <span class="technology-card__content_dot"></span>
+                  <span class="technology-card__content_name">Jenkins</span>
                 </div>
               </div>
               <div class="technology-card">
@@ -326,14 +474,6 @@
               <div class="technology-card">
                 <div class="technology-card__content">
                   <span class="technology-card__content_dot"></span>
-                  <span class="technology-card__content_name"
-                    >BEM methodology</span
-                  >
-                </div>
-              </div>
-              <div class="technology-card">
-                <div class="technology-card__content">
-                  <span class="technology-card__content_dot"></span>
                   <span class="technology-card__content_name">Type Script</span>
                 </div>
               </div>
@@ -341,14 +481,6 @@
                 <div class="technology-card__content">
                   <span class="technology-card__content_dot"></span>
                   <span class="technology-card__content_name">Figma</span>
-                </div>
-              </div>
-              <div class="technology-card">
-                <div class="technology-card__content">
-                  <span class="technology-card__content_dot"></span>
-                  <span class="technology-card__content_name"
-                    >Lottie animation</span
-                  >
                 </div>
               </div>
               <div class="technology-card">
@@ -420,5 +552,18 @@
       </footer>
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

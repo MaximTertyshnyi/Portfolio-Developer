@@ -629,10 +629,11 @@
 .text-projects#surf{
   width: 100%;
   margin-left: 0;
-  margin-right: 72px;
+  margin-right: 0;
   font-size: 18px;
   font-weight: 100;
   line-height: 160%;
+  text-align: center;
 }
 
 }
@@ -967,10 +968,14 @@ hr{
     margin-bottom: 100px;
 }
 
+.form-conteiner:last-child {
+    margin-bottom: 0;
+  }
+
 .relocare-conteiner{
     display: flex;
     flex-direction: row-reverse;
-
+    margin-bottom: 50px;
 }
 
 .relocare__img{
@@ -1027,9 +1032,15 @@ hr{
     margin-bottom: 50px;
 }
 
+.form-conteiner:last-child {
+    margin-bottom: 0;
+  }
+
 .relocare-conteiner{
     flex-direction: column;
     margin-top: 0;
+    margin-bottom: 50px;
+    align-items: center;
 }
 
 .relocare__img{
@@ -1726,7 +1737,7 @@ hr{
 }
 
 .technology-card{
-    cursor: pointer;
+    cursor: default;
     padding: 8px;
     background-color: #d8d8d8ab;
     border-radius: 12px;
